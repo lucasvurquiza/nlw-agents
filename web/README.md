@@ -64,3 +64,7 @@ src/
 ├── lib/             # Utilitários e configurações
 └── app.tsx          # Componente raiz
 ```
+
+---
+
+Desenvolvido com 💛 durante o NLW da Rocketseat 
