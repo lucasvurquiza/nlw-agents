@@ -15,6 +15,20 @@
       "when": 1751996427490,
       "tag": "0001_tiresome_scorpion",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752151114476,
+      "tag": "0002_clear_the_phantom",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1752153094162,
+      "tag": "0003_mighty_warpath",
+      "breakpoints": true
     }
   ]
 }
