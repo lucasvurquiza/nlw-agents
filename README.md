@@ -20,6 +20,7 @@ Este repositório contém duas aplicações independentes:
 - **Zod** – Validação de schemas
 - **Docker** – Containerização do banco
 - **Biome** – Lint & format
+- **Google GenAI** - Utilização de IA para gerar respostas
 
 ### Frontend (`web/`)
 
