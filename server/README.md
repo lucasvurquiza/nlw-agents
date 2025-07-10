@@ -11,6 +11,7 @@ Projeto desenvolvido durante um evento da **Rocketseat** utilizando tecnologias 
 - **Zod** - Schema validation
 - **Docker** - Containerização do banco de dados
 - **Biome** - Linting e formatação de código
+- **Google GenAI** - Utilização de IA para gerar respostas
 
 ## 🏗️ Arquitetura
 
@@ -39,7 +40,9 @@ cd server
 docker-compose up -d
 ```
 
-### 3. Configure as variáveis de ambiente
+### 3. Crie uma API Key no [Google DEV](https://ai.google.dev/gemini-api/docs/quickstart?hl=pt-br)
+
+### 4. Configure as variáveis de ambiente
 
 Crie um arquivo `.env` na raiz do projeto:
 
@@ -48,22 +51,22 @@ PORT=3333
 DATABASE_URL=postgresql://docker:docker@localhost:5432/agents
 ```
 
-### 4. Instale as dependências
+### 5. Instale as dependências
 ```bash
 npm install
 ```
 
-### 5. Execute as migrações do banco
+### 6. Execute as migrações do banco
 ```bash
 npx drizzle-kit migrate
 ```
 
-### 6. (Opcional) Popule o banco com dados de exemplo
+### 7. (Opcional) Popule o banco com dados de exemplo
 ```bash
 npm run db:seed
 ```
 
-### 7. Execute o projeto
+### 8. Execute o projeto
 
 **Desenvolvimento:**
 ```bash

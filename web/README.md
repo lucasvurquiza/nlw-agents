@@ -59,9 +59,10 @@ O projeto consome uma API que deve estar rodando na porta 3333. Certifique-se de
 
 ```
 src/
-├── components/ui/    # Componentes de interface
+├── components/ui/   # Componentes de interface
 ├── pages/           # Páginas da aplicação
 ├── lib/             # Utilitários e configurações
+├── http/            # Conexão com API
 └── app.tsx          # Componente raiz
 ```
 
